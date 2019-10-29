@@ -1,3 +1,15 @@
+# Monsters-Rolodex
+
+First, clone github repo using `git clone https://github.com/nbauer3/monsters-rolodex.git`
+
+Start application using `npm start`
+
+OR
+
+Visit https://nbauer3.github.io/monsters-rolodex/ for application in deployment
+
+---------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
