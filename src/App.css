@@ -4,6 +4,12 @@ body {
 
 .App {
   text-align: center;
+  border: solid;
+  border-width: 15px;
+  border-color: lightskyblue;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  padding-bottom: 50px;
 }
 
 h1 {
