@@ -6,7 +6,7 @@ Start application using `npm start`
 
 OR
 
-Visit https://nbauer3.github.io/monsters-rolodex/ for application in deployment
+Visit `https://nbauer3.github.io/monsters-rolodex/` for application in deployment
 
 ---------------------------------------------------------------------------------------------------
 
