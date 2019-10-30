@@ -79,3 +79,22 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # monsters-rolodex
+
+---------------------------------------------------------------------------------------------------
+
+## Developer Notes
+
+> To deploy updated application to GitHub Pages, navigate to project directory and run commands:
+`git checkout gh-pages`
+`git rebase master`
+`git push -f origin gh-pages`
+`git checkout master`
+`yarn deploy`
+
+> Deployment takes time to load changes sometimes, also caching may be a problem when encountering re-rendering errors
+
+> App Containerized with Docker:
+  -Build docker image using `docker build -t sample:dev .`
+  -Run Docker image using `docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm sample:dev`
+  -Source for Docker Tutorial: https://mherman.org/blog/dockerizing-a-react-app/
+  
